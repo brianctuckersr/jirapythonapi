@@ -7,7 +7,7 @@ This script takes your username, password, and domain as inputs to do the follow
 
 JIRA Cloud limits the response to 50 users, but I've take care of paginating the results. So it will retrieve all usernames using the nextPage URL returned in the API response. 
 
-The user list includes inactives and for each user - you will get the group_name, display_name, account_status, and email_address. 
+The user list includes inactives, and provides the group_name, display_name, account_status, and email_address. 
 
 Domain input assumes your domain is https://mycompany.atlassian.com. When prompted for domain, enter only the value for "mycompany". 
 
